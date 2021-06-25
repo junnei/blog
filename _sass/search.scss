@@ -58,8 +58,8 @@
   @include mq(md) {
     padding-top: $gutter-spacing-sm;
     padding-bottom: $gutter-spacing-sm;
-    padding-left: #{$gutter-spacing + $sp-5};
-    font-size: 14px;
+    padding-left: #{$gutter-spacing + $sp-5 * 1.8};
+    font-size: 18px;
     background-color: $body-background-color;
     transition: padding-left linear #{$transition-duration / 2};
   }
@@ -85,10 +85,11 @@
   }
 
   .search-icon {
-    width: #{$sp-4 * 1.2};
-    height: #{$sp-4 * 1.2};
+    width: #{$sp-4 * 1.8};//1.2
+    height: #{$sp-4 * 1.8};//1.2
     align-self: center;
     color: $grey-dk-000;
+    transition:all 0.2s linear;
   }
 }
 
@@ -147,7 +148,7 @@
 
   @include mq(sm) {
     display: inline-block;
-    width: 40%;
+    width: 30%;
     padding-right: $sp-2;
     vertical-align: top;
   }
@@ -284,13 +285,19 @@
     background-color: $search-background-color;
 
     @include mq(md) {
-      padding-left: 2.3rem;
+      padding-left: 3.2rem;
     }
   }
 
   .search-label {
     @include mq(md) {
-      padding-left: 0.6rem;
+      padding-left: 1rem;
+    }
+
+
+    .search-icon {
+      width: #{$sp-4 * 1.4};
+      height: #{$sp-4 * 1.4};
     }
   }
 

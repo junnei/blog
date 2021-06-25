@@ -101,10 +101,24 @@
   display: flex;
   min-height: $header-height;
   align-items: center;
+  transition: all 0.2s linear;
 
   @include mq(md) {
     height: $header-height;
     max-height: $header-height;
+    border-bottom: $border $border-color;
+  }
+}
+
+.site-header:hover {
+  display: flex;
+  min-height: $header-height*1.2;
+  align-items: center;
+  transition: all 0.2s;
+
+  @include mq(md) {
+    height: $header-height*1.2;
+    max-height: $header-height*1.2;
     border-bottom: $border $border-color;
   }
 }
@@ -134,11 +148,13 @@
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
+    transition: all 0.2s linear;
   }
 }
 
 .site-button {
   display: flex;
+  font-size: 14px;
   height: 100%;
   padding: $gutter-spacing-sm;
   align-items: center;
@@ -152,18 +168,11 @@
 
 .site-title:hover {
   background-image: linear-gradient(
-    -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 80%,
-    rgba($feedback-color, 0) 100%
-  );
-}
-
-.site-button:hover {
-  background-image: linear-gradient(
-    -90deg,
-    rgba($feedback-color, 1) 0%,
-    rgba($feedback-color, 0.8) 100%
+    90deg,
+    rgba($feedback-color, 0) 0%,
+    rgba($feedback-color, 0) 90%,
+    rgba($feedback-color, 0.6) 95%,
+    rgba($feedback-color, 1) 100%
   );
 }
 
