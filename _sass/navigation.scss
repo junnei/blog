@@ -104,13 +104,15 @@
 
       .nav-list-item {
         position: relative;
-
-        .nav-list-link {
-          color: $nav-child-link-color;
-        }
-
-        .nav-list-expander {
-          color: $nav-child-link-color;
+        
+        > .nav-list {
+          .nav-list-link {
+            color: $nav-child-link-color;
+          }
+  
+          .nav-list-expander {
+            color: $nav-child-link-color;
+          }
         }
       }
     }
