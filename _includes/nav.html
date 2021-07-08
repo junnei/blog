@@ -1,3 +1,5 @@
+
+
 <ul class="nav-list">
   {%- assign titled_pages = include.pages
         | where_exp:"item", "item.title != nil" -%}
@@ -55,7 +57,7 @@
     {%- assign sorted_string_ordered_pages = sorted_string_ordered_pages | concat: group.items -%}
   {%- endfor -%}
 
-  {%- assign pages_list = sorted_number_ordered_pages | concat: sorted_string_ordered_pages -%}
+  {%- assign pages_list = sorted_number_ordered_pages | concat: sorted_string_ordered_pages | where:"lang", page.lang -%}
   
   {%- for node in pages_list -%}
     {%- if node.parent == nil -%}
