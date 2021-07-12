@@ -77,7 +77,7 @@
   position: absolute;
   display: flex;
   height: 100%;
-  padding-left: $gutter-spacing-sm;
+  padding-left: #{$gutter-spacing-sm*0.8};
 
   @include mq(md) {
     padding-left: $gutter-spacing;
@@ -85,11 +85,16 @@
   }
 
   .search-icon {
-    width: #{$sp-4 * 1.8};//1.2
-    height: #{$sp-4 * 1.8};//1.2
+    width: #{$sp-4 * 1.2};
+    height: #{$sp-4 * 1.2};
     align-self: center;
     color: $grey-dk-000;
     transition:all 0.2s linear;
+
+    @include mq(md) {
+      width: #{$sp-4 * 1.8};//1.2
+      height: #{$sp-4 * 1.8};//1.2
+    }
   }
 }
 
@@ -293,11 +298,14 @@
     @include mq(md) {
       padding-left: 1rem;
     }
-
-
+    
     .search-icon {
-      width: #{$sp-4 * 1.4};
-      height: #{$sp-4 * 1.4};
+      width: #{$sp-4 * 1.2};
+      height: #{$sp-4 * 1.2};
+      @include mq(md) {
+        width: #{$sp-4 * 1.4};
+        height: #{$sp-4 * 1.4};
+      }
     }
   }
 
