@@ -453,12 +453,23 @@ function searchLoaded(index, docs) {
 
 // Switch theme
 
+function initTheme() {
+  jtd.setTheme(jtd.getTheme());
+}
+
 jtd.getTheme = function() {
-  var cssFileHref = document.querySelector('[rel="stylesheet"]').getAttribute('href');
-  return cssFileHref.substring(cssFileHref.lastIndexOf('-') + 1, cssFileHref.length - 4);
+  if(localStorage.getItem('theme') != null){
+    return localStorage.getItem('theme');
+  }
+  else{
+    var cssFileHref = document.querySelector('[rel="stylesheet"]').getAttribute('href');
+    return cssFileHref.substring(cssFileHref.lastIndexOf('-') + 1, cssFileHref.length - 4);
+  }
 }
 
 jtd.setTheme = function(theme) {
+  localStorage.setItem('theme',theme);
+  
   var cssFile = document.querySelector('[rel="stylesheet"]');
   cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | absolute_url }}' + theme + '.css');
 }
@@ -470,6 +481,7 @@ jtd.onReady(function(){
   {%- if site.search_enabled != false %}
   initSearch();
   {%- endif %}
+  initTheme();
 });
 
 })(window.jtd = window.jtd || {});

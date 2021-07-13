@@ -138,6 +138,34 @@
   padding-right: $gutter-spacing-sm;
   padding-bottom: $sp-2;
   padding-left: $gutter-spacing-sm;
+  background-color: $base-button-color;
+  
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+  text-transform: uppercase;
+  border-bottom: $border $border-color;
+  @include fs-2;
+
+  @include mq(md) {
+    padding-right: $sp-5;
+    padding-left: $sp-5;
+    padding-top: $sp-3;
+  }
+
+}
+
+.nav-theme {
+  color: $link-color;
+  text-decoration: none;
+  border-width: 0;
+  appearance: none;
+  background-color: $base-button-color;
+
+  padding-top: $sp-2;
+  padding-right: $gutter-spacing-sm;
+  padding-bottom: $sp-2;
+  padding-left: $gutter-spacing-sm;
   font-weight: 600;
   text-align: center;
   align-content: center;

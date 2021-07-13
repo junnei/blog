@@ -7,7 +7,6 @@
   display: flex;
   flex-wrap: wrap;
   background-color: $sidebar-color;
-  justify-content: flex-end;
 
   @include mq(md) {
     flex-wrap: nowrap;
@@ -24,6 +23,23 @@
     min-width: $nav-width;
   }
 }
+
+.side-theme {
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+  
+  @include mq(md) {
+    width: $nav-width-md;
+    justify-content: flex-end;
+  }
+
+  @include mq(lg) {
+    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    min-width: $nav-width;
+  }
+}
+
 
 .main {
   @include mq(md) {

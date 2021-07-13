@@ -48,27 +48,29 @@ layout: table_wrappers
       </a>
     </div>
 
-    <div style="padding-bottom:0.25rem;">
-      <a href="#footer" class="nav-lang">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</a>
-      <button style="margin-top:0.25rem" class="btn nav-lang js-toggle-dark-mode">Dark Mode 🌑</button>
-
-      <script>
-      const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-      
-      jtd.addEvent(toggleDarkMode, 'click', function(){
-        if (jtd.getTheme() === 'dark') {
-          jtd.setTheme('light');
-          toggleDarkMode.textContent = 'Dark Mode 🌑';
-        } else {
-          jtd.setTheme('dark');
-          toggleDarkMode.textContent = 'Light Mode 🌕';
-        }
-      });
-      </script>
-    </div>
     
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
 
+      <div class="side-theme">
+        <a href="#footer">
+          <button class="nav-theme">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</button>
+        </a>
+        <button  class="js-toggle-dark-mode nav-theme">Dark Mode 🌑</button>
+        <script>
+        const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+        
+        jtd.addEvent(toggleDarkMode, 'click', function(){
+          console.log(jtd.getTheme());
+          if (jtd.getTheme() === 'dark') {
+            jtd.setTheme('light');
+            toggleDarkMode.textContent = 'Dark Mode 🌑';
+          } else {
+            jtd.setTheme('dark');
+            toggleDarkMode.textContent = 'Light Mode 🌕';
+          }
+        });
+        </script>
+      </div>
       {% if site.just_the_docs.collections %}
         {% assign collections_size = site.just_the_docs.collections | size %}
         {% for collection_entry in site.just_the_docs.collections %}
