@@ -73,13 +73,19 @@ function initSearch() {
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
-      var docs = JSON.parse(request.responseText);
-      
+      var lang = window.location.pathname.split('/')[2];
+
+      var docs = Object.assign({},(
+        Object.values(JSON.parse(request.responseText))
+        .filter((page) => page.lang == lang)
+      ));
+
       lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[\s\-/]+/" }}
 
       var index = lunr(function(){
         this.ref('id');
         this.field('title', { boost: 200 });
+        this.field('lang');
         this.field('content', { boost: 2 });
         {%- if site.search.rel_url != false %}
         this.field('relUrl');
@@ -90,6 +96,7 @@ function initSearch() {
           this.add({
             id: i,
             title: docs[i].title,
+            lang: docs[i].lang,
             content: docs[i].content,
             {%- if site.search.rel_url != false %}
             relUrl: docs[i].relUrl
@@ -107,13 +114,13 @@ function initSearch() {
   request.onerror = function(){
     console.log('There was a connection error');
   };
-
   request.send();
 }
 
 function searchLoaded(index, docs) {
   var index = index;
   var docs = docs;
+  
   var searchInput = document.getElementById('search-input');
   var searchResults = document.getElementById('search-results');
   var mainHeader = document.getElementById('main-header');
@@ -203,7 +210,6 @@ function searchLoaded(index, docs) {
 
     function addResult(resultsList, result) {
       var doc = docs[result.ref];
-
       var resultsListItem = document.createElement('li');
       resultsListItem.classList.add('search-results-list-item');
       resultsList.appendChild(resultsListItem);

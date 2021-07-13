@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Markdown kitchen sink
+lang: en
+lang-ref: index-test
 nav_order: 99
+permalink: /en/index-test
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
