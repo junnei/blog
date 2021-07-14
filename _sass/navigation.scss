@@ -243,6 +243,7 @@
   padding-left: 0;
   margin-bottom: $sp-3;
   list-style: none;
+  @include fs-1;
 }
 
 .breadcrumb-nav-list-item {
