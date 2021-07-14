@@ -55,10 +55,18 @@ layout: table_wrappers
         <a href="#footer">
           <button class="nav-theme">{{ site.data.languages[page.lang].icon }} {{ site.data.languages[page.lang].label }}</button>
         </a>
-        <button  class="js-toggle-dark-mode nav-theme">Dark Mode 🌑</button>
+        <button class="js-toggle-dark-mode nav-theme">Dark Mode 🌑</button>
+        
         <script>
         const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-        
+
+        if (jtd.getTheme() === 'dark') {
+          toggleDarkMode.textContent = 'Light Mode 🌕';
+        }
+        else{
+          toggleDarkMode.textContent = 'Dark Mode 🌑';
+        }
+
         jtd.addEvent(toggleDarkMode, 'click', function(){
           if (jtd.getTheme() === 'dark') {
             jtd.setTheme('light');
