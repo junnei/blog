@@ -2,7 +2,7 @@
 <summary>
 '{{ include.category }}' 카테고리의 {% if include.all==true %}모든{% else %}다른{% endif %} 글
 </summary>
-{: .text-delta {% if include.all==true %}.fs-4{% endif %} }
+{: .text-delta {% if include.all==true %}.fs-3{% endif %} }
 
 {% assign count = 0 %}
 {% assign min = include.id | minus: 2 %}
