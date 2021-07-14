@@ -3,9 +3,9 @@ layout: default
 title: Music Information Retrieval
 lang: kr
 lang-ref: music-information-retrieval
-nav_order: 2
 has_children: true
 permalink: /kr/music-information-retrieval
+nav_order: 2
 ---
 
 # Music Information Retrieval
