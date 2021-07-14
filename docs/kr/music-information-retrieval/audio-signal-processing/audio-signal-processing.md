@@ -34,7 +34,6 @@ Music can be listened and enjoyed but it can also be studied from an engineering
 {% include category.html category=page.title all=true %}
 
 ---
----
 
 강의자(교수진)
 {: .fs-6 }
