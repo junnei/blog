@@ -247,7 +247,7 @@
 
 .breadcrumb-nav-list-item {
   display: table-cell;
-  @include fs-1-sm;
+  @include fs-1;
 
   &::before {
     display: none;
