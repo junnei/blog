@@ -15,19 +15,18 @@ has_toc: false
 
 
 > 본 카테고리(Audio Signal Processing for Music Application)는 스탠포드 대학교 인문 과학부 [(Stanford School of Humanities and Sciences)](https://humsci.stanford.edu)의 <b>Audio Signal Processing for Music Application [[MUSIC-001]](https://online.stanford.edu/courses/sohs-ymusic0001-audio-signal-processing-music-applications)</b> 를 수강하고, 이를 바탕으로 쓰여진 글들로 구성되어 있다.<br>
-{: .fs-5 }
 
 ---
 
 Music can be listened and enjoyed but it can also be studied from an engineering perspective.
-{: .fs-6 .fw-300 }
+{: .fs-5 .fw-300 }
 
 음악은 듣고 즐길 수 있을 뿐만 아니라 🎧
-{: .fs-6 .fw-300 }
+{: .fs-5 .fw-300 }
 
 공학적인 관점에서 연구하며 즐길 수도 있다 🎼🎹
 (두둥)
-{: .fs-6 .fw-300 }
+{: .fs-5 .fw-300 }
 
 ---
 
@@ -36,8 +35,8 @@ Music can be listened and enjoyed but it can also be studied from an engineering
 ---
 
 강의자(교수진)
-{: .fs-6 }
+{: .fs-4 }
 
-[Xavier Serra](https://www.upf.edu/web/xavier-serra) (Music Technology Group, Pompeu Fabra University) 
+[Xavier Serra](https://www.upf.edu/web/xavier-serra) ([Music Technology Group](https://www.upf.edu/web/mtg), Pompeu Fabra University) 
 
-[Julius Smith](https://profiles.stanford.edu/julius-smith) (CCRMA, Stanford University)
+[Julius Smith](https://profiles.stanford.edu/julius-smith) ([CCRMA](https://ccrma.stanford.edu), Stanford University)
