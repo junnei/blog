@@ -61,7 +61,8 @@ Contribute through Pull Request and Merge to this [Github Repository](https://gi
 
 <br>
 
-#### Thank you to the contributors of Just the Docs!
+#### Thank you to the contributors of Jun's Notebook!
+
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}

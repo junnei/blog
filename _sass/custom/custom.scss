@@ -31,5 +31,5 @@ ol.lang-list li {
   
 ul.lang-list li:hover,
 ol.lang-list li:hover {
-    background-color: #f6f6f6;
+    background-color: darken($base-button-color, 1%);
 }

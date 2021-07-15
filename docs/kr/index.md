@@ -62,7 +62,7 @@ redirect_from:
 
 <br>
 
-#### Thank you to the contributors of Just the Docs!
+#### Thank you to the contributors of JUN'S NOTEBOOK!
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
