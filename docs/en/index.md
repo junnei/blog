@@ -74,4 +74,4 @@ Contribute through Pull Request and Merge to this [Github Repository](https://gi
 
 <br>
 
-[How can i contribute to this?](https://github.com/junnei/blog#contributing)
+[How can I contribute to this?](https://github.com/junnei/blog#contributing)
