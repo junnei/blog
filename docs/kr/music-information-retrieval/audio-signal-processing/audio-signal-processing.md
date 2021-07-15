@@ -34,8 +34,14 @@ Music can be listened and enjoyed but it can also be studied from an engineering
 
 ---
 
-## 강의자(교수진)
+강의자(교수진)
+{: .fs-6}
 
 [Xavier Serra](https://www.upf.edu/web/xavier-serra) ([Music Technology Group](https://www.upf.edu/web/mtg), Pompeu Fabra University) 
 
 [Julius Smith](https://profiles.stanford.edu/julius-smith) ([CCRMA](https://ccrma.stanford.edu), Stanford University)
+
+---
+
+
+{% include open_embed.html src="/assets/audio/Daybreak - Rubato Lab.wav" %}
