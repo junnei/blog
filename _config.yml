@@ -29,6 +29,8 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
 # include: ["docs/tests/"]
 
+audio: "/assets/audio/"
+
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/logo.gif"
 logo_dark: "/assets/images/logo-dark.gif"

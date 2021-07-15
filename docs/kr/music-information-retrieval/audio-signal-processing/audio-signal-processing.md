@@ -44,4 +44,4 @@ Music can be listened and enjoyed but it can also be studied from an engineering
 ---
 
 
-{% include open_embed.html src="/assets/audio/Daybreak - Rubato Lab.wav" %}
+{% include wav_embed.html assets="audio" src="Daybreak - Rubato Lab.wav" %}
