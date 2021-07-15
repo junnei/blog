@@ -22,11 +22,11 @@ Music can be listened and enjoyed but it can also be studied from an engineering
 {: .fs-5 .fw-300 }
 
 음악은 듣고 즐길 수 있을 뿐만 아니라 🎧
-{: .fs-5 .fw-300 }
+{: .fs-6 .fw-300 }
 
 공학적인 관점에서 연구하며 즐길 수도 있다 🎼🎹
 (두둥)
-{: .fs-5 .fw-300 }
+{: .fs-6 .fw-300 }
 
 ---
 
@@ -34,8 +34,7 @@ Music can be listened and enjoyed but it can also be studied from an engineering
 
 ---
 
-강의자(교수진)
-{: .fs-4 }
+## 강의자(교수진)
 
 [Xavier Serra](https://www.upf.edu/web/xavier-serra) ([Music Technology Group](https://www.upf.edu/web/mtg), Pompeu Fabra University) 
 
