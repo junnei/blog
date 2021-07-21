@@ -32,7 +32,7 @@ redirect_from:
 이 페이지의 원본 소스는 다음의 저자가 만든 것을 활용한 것입니다. 진심으로 감사드립니다.
 
 - [Just the Docs](http://patrickmarsceill.com) &copy; 2017-2020
-- [utterances.es](https://utteranc.es/) &copy; 2021
+- [utteranc.es](https://utteranc.es/) &copy; 2021
 
 이 페이지를 구축하는데 다음 사이트에서 영감을 얻었습니다. 마찬가지로 감사드립니다.
 

@@ -30,7 +30,7 @@ The field I am currently interested is <b>Music Information Retrieval(MIR).</b>
 This page is based on the following author's creation. Heartily thank you.
 
 - [Just the Docs](http://patrickmarsceill.com) &copy; 2017-2020
-- [utterances.es](https://utteranc.es/) &copy; 2021
+- [utteranc.es](https://utteranc.es/) &copy; 2021
 
 Inspired by the following site to build this page. Thank you as well.
 
