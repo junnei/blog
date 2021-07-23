@@ -27,7 +27,7 @@ The field I am currently interested is <b>Music Information Retrieval(MIR).</b>
 
 ## Open Source Used
 
-This page is based on the following author's creation. Heartily thank you.
+This page is based on the following author's creation. Sincerely thank you.
 
 - [Just the Docs](http://patrickmarsceill.com) &copy; 2017-2020
 - [utteranc.es](https://utteranc.es/) &copy; 2021
@@ -57,7 +57,7 @@ People who contributed to better content in this project.
 
 Contribute through Pull Request and Merge to this [Github Repository](https://github.com/junnei/blog/).
 
-<b>Heartily thank you.</b>
+<b>Sincerely thank you.</b>
 
 <br>
 
