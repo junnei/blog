@@ -156,6 +156,7 @@
 }
 
 .nav-theme {
+  width:50vw;
   color: $link-color;
   text-decoration: none;
   border-width: 0;
@@ -174,11 +175,17 @@
   @include fs-2;
 
   @include mq(md) {
+    width:121.5px;
     padding-right: $sp-5;
     padding-left: $sp-5;
     padding-top: $sp-3;
   }
 
+}
+.js-toggle-dark-mode {
+  @include mq(md) {
+    width:144.5px;
+  }
 }
 
 .nav-category {
