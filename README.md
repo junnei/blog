@@ -49,7 +49,7 @@ Feel free to contribute with high-quality contents!
 
 *(If Docker, just run it and Open your browser at [`http://localhost:4000`](http://localhost:4000))*
 ```bash
-    $ docker-compose up
+$ docker-compose up
 ```
 
 First, we need to install ruby (v2.7.3 in my case)
@@ -73,7 +73,7 @@ First, fork this repository to your local machine.
 
 ```bash
 $ git fork https://github.com/junnei/blog
-$ cd mml
+$ cd blog
 ```
 
 
