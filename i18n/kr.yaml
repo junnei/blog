@@ -1,0 +1,32 @@
+- id: home
+  translation: 홈
+
+- id: read_more
+  translation: 더 읽기
+
+- id: send
+  translation: Send
+
+- id: related_posts
+  translation: Related Posts
+
+- id: categories
+  translation: 카테고리
+
+- id: tags
+  translation: 태그
+
+- id: toc
+  translation: 목차
+
+- id: share
+  translation: Share
+
+- id: search_input_placeholder
+  translation: 검색하기...
+
+- id: no_results_for
+  translation: No results for
+
+- id: empty_search_results_placeholder
+  translation: Type something to search..
