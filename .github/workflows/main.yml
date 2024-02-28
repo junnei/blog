@@ -48,6 +48,9 @@ jobs:
           rm go${{ env.GO_VERSION }}.linux-amd64.tar.gz
           go version
 
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Setup Project
         run: npm run project-setup
 
