@@ -1,0 +1,52 @@
+[home]
+  other = '홈'
+
+[read_more]
+  other = '더 읽기'
+
+[send]
+  other = 'Send'
+
+[related_posts]
+  other = 'Related Posts'
+
+[categories]
+  other = '카테고리'
+
+[tags]
+  other = '태그'
+
+[toc]
+  other = '목차'
+
+[share]
+  other = 'Share'
+
+[search_input_placeholder]
+  other = '검색하기...'
+
+[no_results_for]
+  other = 'No results for'
+
+[empty_search_results_placeholder]
+  other = 'Type something to search..'
+
+
+# Category / Tag
+[notice]
+  other = '공지사항'
+
+[machine_learning]
+  other = '머신러닝'
+
+[data]
+  other = '데이터'
+
+[architecture]
+  other = '아키텍처'
+
+[software]
+  other = '소프트웨어'
+
+[tech]
+  other = '테크'
